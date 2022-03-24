@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Transactional email</title>
+	<style type="text/css">
+		body {
+			margin: 0;
+			background-color: #cccccc;
+		}
+		table {
+			border-spacing: 0;
+		}
+		td {
+			padding: 0;
+		}
+		img {
+			border: 0;
+		}
+        .wrapper{
+            background-color: #cccccc;
+            table-layout: fixed;
+            width: 100%;
+        }
+        
+        .main{
+            width: 100%;
+            max-width: 600px;
+            background-color: #ffffff;
+            border-spacing: 0;
+            font-family: sans-serif;
+            color: #000000;
+
+        }
+        .background{
+            background-image:url('img/image-7.png');
+            background-size: 100%;
+
+        }
+        
+        .footer_logo{
+            padding: 5px;
+        }
+        .two_column{
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            padding-bottom: 20px;
+        }
+        .two_column .column{
+            width: 40%;
+            display: inline-block;
+            vertical-align: top;
+        }
+        
+        .padding{
+            padding:5px;
+        }
+
+		@media screen and (max-width: 600px) {
+            .padding{
+                padding: 0px;
+            }
+            .equal{
+                width: 600px;
+            }
+       
+            .two_column .column{
+                width: 70%!important;
+                
+            }
+            .column .content{
+                text-align: center!important;
+            }
+            
+            .background{
+                background-image:url('img/image-7.png');
+                background-size: 600px;
+                background-repeat: no-repeat;
+    
+            }
+            img.need_help{
+                width: 20%;
+            }
+            img.offer{
+                width: 30%;
+            }
+		}
+	</style>
+</head>
+<body>
+    <center class="wrapper">
+        <table class="main" align="center">
+
+
+<!-- Header -->
+<tr>
+    <td height="25" style="background-color: #cccccc;">&nbsp</td>
+</tr>
+<tr>
+    <td align="center" style="padding: 20px 0px;">
+        <a href="#">
+            <img src="img\image-5.png" alt="Logo" width="90">
+        </a>
+    </td>
+</tr>
+
+
+<!-- BANNER IMAGE -->
+<tr>
+     <td class="background" align="center" style="max-width:600px;color:#ffffff;font-weight:bold;text-align:center;height:400px;" >
+        <p style="font-size: 60px;font-weight:bold">YAY!</p>
+        <P style="font-size: 40px;">Your Order Just Shipped</P>        
+    </td>
+</tr>
+
+
+<!-- Tracking number -->
+<tr>
+    <td style="color: #000000;padding:20px;" align="center">
+        <p style="font-size: 30px;font-weight:bold;">Your tracking number is</p>
+        <p style="font-weight: bold;font-size:20px">26518 393030 303030 789</p>
+        <p style="padding-top: 25px;"><a href="#" style="background-color: #ffa500;text-decoration:none;
+            padding:15px 50px;font-weight:bold;color:#ffffff">Track your order</a></p>
+    </td>
+</tr>
+
+<tr>
+    <td height="25" style="background-color: #cccccc;">&nbsp</td>
+</tr>
+
+<!-- Two columns -->
+<tr>
+    <td>
+        <table>
+            <tr>
+                <td class="two_column">
+                    <table class="column">
+                        <tr>
+                            <td class="padding">
+                                <table class="content">
+                                    <tr>
+                                        <td class="equal">
+                                            <p style="font-size: 20px;border-bottom:1px solid #cccccc;padding:10px 10px;">Order Number</p>
+                                            <p style="font-size: 20px;font-weight:bold;">HLR-12345567</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="column">
+                        <tr>
+                            <td class="padding">
+                                <table class="content">
+                                    <tr>
+                                        <td class="equal">
+                                            <p style="font-size: 20px;border-bottom:1px solid #cccccc;padding:10px 10px;"> Shipping Details</p>
+                                            <p">Tell the customer the current situation of his/her product</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+<tr>
+    <td height="25" style="background-color: #cccccc;">&nbsp</td>
+</tr>
+
+<!-- Take the offer -->
+<tr>
+    <td style="text-align: center;padding:50px 0px;">
+        <p><a href="#"><img class="offer" src="img\image-4.jpeg" alt="" width="250"></a></p>
+        <p style="color: #ff0000;font-size:18px;font-weight:bold;">TAKE THE OFFER</p>
+        <p style="padding:0px 100px;font-weight:bold;font-size:20px;">Refer a friend! You will get $25 and they will get 25% Off their first order.</p>
+        <p style="padding-top: 25px;"><a href="#" style="background-color: #ffa500;text-decoration:none;
+            padding:15px 50px;font-weight:bold;color:#ffffff">Refer Now!</a></p>
+    </td>
+</tr>
+
+<tr>
+    <td height="25" style="background-color: #cccccc;">&nbsp</td>
+</tr>
+
+<!-- Need any help -->
+<tr>
+    <td style="text-align: center;padding: 30px 0px; ">
+        <p>
+            <a href="#">
+                <img  class="need_help" src="img\image-6.png" alt="need help" width="100">
+            </a>
+        </p>
+        <p style="padding: 10px 30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+            tempor incididunt ut labore et dolore biprangita aliqua.
+        </p>
+        <p style="padding-top: 25px;"><a href="#" style="background-color: #ffa500;text-decoration:none;
+            padding:15px 50px;font-weight:bold;color:#ffffff">Need Any Help!>></a></p>
+
+    </td>
+</tr>
+
+<!-- FOOTER SECTION -->
+<tr>
+    <td style="background-color: #130229b6;padding: 30px 0px;text-align:center;">
+        <p><a href="#" style="text-decoration: none;color:#ffa500;font-size:20px;letter-spacing:2px">www.yourcompany.com</a></p>
+        <p>
+            <a class="footer_logo" href="#"><img src="img\image-2.png" alt="twitter" width="30"></a>
+            <a class="footer_logo" href="#"><img src="img\image-1.png" alt="linkedin" width="30"></a>
+            <a class="footer_logo" href="#"><img src="img\image-3.png" alt="instagram" width="30"></a>
+        </p>
+        <p style="padding: 30px;color:#ffffff;line-height:30px;">
+            If you have questions regarding your Data, please visit our <a href="#" style="color: #ffffff;text-decoration:none;">Privacy Policy</a> 
+            Want to change how you receive these emails? You can update your preferences or 
+            <a href="#" style="color: #ffffff;text-decoration:none;">unsubscribe</a>  from this list.
+        </p>
+    </td>
+</tr>
+<tr>
+    <td  style="background-color: #cccccc;text-align:center;font-size:12px;color:#807a7a;padding:5px 0px;">
+        <p>
+            &copy20XX Your Company | 123 San Francisco, CA. United States
+        </p>
+    </td>
+</tr>
+
+
+        </table>
+    </center>
+</body>
+</html>
+
